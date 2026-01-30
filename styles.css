@@ -172,3 +172,24 @@ body.dark{
   --accent-2:#f6bb43;
   --glass: rgba(255,255,255,0.03);
 }
+
+.profile-photo {
+  position: relative;
+    width: 140px;
+      height: 140px;
+        border-radius: 50%;
+          overflow: hidden;
+          }
+
+          .profile-photo img,
+          .profile-photo svg {
+            position: absolute;
+              inset: 0;
+                width: 100%;
+                  height: 100%;
+                  }
+
+                  .profile-photo img {
+                    object-fit: cover;
+                      z-index: 1;
+                      }
