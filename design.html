@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Almustapha Amiru | Graphic Designer | Web Developer & UI/UX Enthusiast</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Basic meta for social previews -->
+    <meta name="description"
+        content="Portfolio of Almustapha Amiru | Graphic Designer | Web Developer experienced in PHP, MySQL, UI/UX. SIWES Shopmate project.">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#hero">Almustapha Amiru</a>
+
+            <nav class="nav" id="nav">
+                <a href="index.html#about">About</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="index.html#experience">Experience</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <button id="themeToggle" class="btn-ghost" aria-label="Toggle theme">🌙</button>
+                <button class="btn-primary"
+                    onclick="document.querySelector('#contact .contact-form input[name=name]').focus()">Hire me</button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Amiru — Built with ❤️ · <a href="#hero">Back to top</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
